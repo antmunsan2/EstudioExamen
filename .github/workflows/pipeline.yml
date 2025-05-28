@@ -3,9 +3,9 @@ name: Flujo de trabajo para construir y publicar artefactos
 on:
   workflow_dispatch:
   push:
-    branches: [antmunsan2]
+    branches: [arreglosCole]
   pull_request:
-    branches: [antmunsan2]
+    branches: [arreglosCole]
 
 jobs:
   Build:
